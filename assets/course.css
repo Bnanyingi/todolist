@@ -1,0 +1,149 @@
+
+/* *{
+    width: fit-content;
+} */
+
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    object-fit: fill;
+   
+}
+
+.searchInput{
+    font-size: 1.5rem;
+    margin-right: 100px;
+    top: 100x;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+
+}
+
+.searchInput type[text]{
+    width: 100%;
+    
+}
+.side-nav{
+    height: 100vh;
+    width: 500px;
+    left: 200px;
+    background-color: #444;
+    display: flex;
+    /* margin: auto; */
+    
+}
+
+
+
+.thisimg{
+    /* position: absolute; */
+    top: 80px;
+    left: 20px;
+    /* transform: translate(-50%,-50%); */
+    padding: 20px;
+    display: flex;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    
+
+    
+}
+
+.imgbx{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.imgbx img{
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.content{
+    padding-left: 30px;
+    display: flexbox;
+
+}
+
+.content h2{
+    margin: 0;
+    padding-left: 0;
+    font-weight: 400;
+}
+
+.content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+button{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px 40px 40px 40px; 
+}
+
+
+
+
+
+
+
+h1{
+    color: #444;
+    top: 40px;
+    justify-content: center;
+    text-align: center;
+    /* flex-grow: 1; */
+    display: flex;
+    /* padding: 1rem; */
+    font-size: 2rem;
+    margin-left: 60px;
+
+}
+
+
+.box-container{
+    margin-left: -200px;
+
+}
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.grid > article{
+    border: .1px solid #444;
+    text-align: center;
+    width: 300px;
+    transition: transform .3s;
+}
+
+.grid > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px  26px 0px rgba(0,0,0.3);
+}
+
+.grid > article img{
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
